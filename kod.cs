@@ -20,7 +20,7 @@ namespace RozliczeniePracownikow
             
             return Math.Round((decimal)( (wynagrodzenie*12/360)*liczbaDni*stawkaChorobowa ),1);
         
-    
+            Console.WriteLine("BLABLABLA");
         }
  
     }
