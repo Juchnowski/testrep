@@ -17,9 +17,13 @@ namespace RozliczeniePracownikow
 
         public decimal chorobowe(int liczbaDni, float wynagrodzenie, float stawkaChorobowa = 0.8f) 
         { 
+            
             return Math.Round((decimal)( (wynagrodzenie*12/360)*liczbaDni*stawkaChorobowa ),1);
         
+    
         }
  
     }
 }
+
+
